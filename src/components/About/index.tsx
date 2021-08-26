@@ -13,7 +13,7 @@ import {
 	ProfilePic,
 } from "./styles";
 
-const About = () => {
+const About: React.FC = () => {
 	return (
 		<>
 			<Anchor id={"about"}></Anchor>

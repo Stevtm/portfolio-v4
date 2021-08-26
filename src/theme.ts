@@ -1,16 +1,16 @@
-// interface Shades {
-// 	lighter: string;
-// 	light: string;
-// 	DEFAULT: string;
-// 	dark: string;
-// 	darker: string;
-// }
+interface Shades {
+	lighter: string;
+	light: string;
+	DEFAULT: string;
+	dark: string;
+	darker: string;
+}
 
-// export interface Color {
-// 	[key: string]: Shades;
-// }
+interface Color {
+	[key: string]: Shades;
+}
 
-export const theme = {
+export const theme: Color = {
 	pastelBlue: {
 		lighter: "#ced6db",
 		light: "#c9d1d7",

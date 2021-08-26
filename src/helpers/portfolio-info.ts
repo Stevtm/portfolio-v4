@@ -1,18 +1,6 @@
-interface portfolioItem {
-	id: number;
-	title: string;
-	desc: string;
-	tools: toolItem[];
-	github: string;
-	link: string;
-}
+import { PortfolioItem } from "./interfaces";
 
-interface toolItem {
-	id: number;
-	name: string;
-}
-
-export const porfolioInfo: portfolioItem[] = [
+export const portfolioInfo: PortfolioItem[] = [
 	{
 		id: 1,
 		title: "Art Gallery Online",
