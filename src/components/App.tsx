@@ -9,8 +9,9 @@ import { theme } from "../theme";
 // import components
 import About from "../components/About";
 import Portfolio from "./Portfolio";
+import Resume from "./Resume";
 
-const App = () => {
+const App: React.FC = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<>
@@ -18,10 +19,12 @@ const App = () => {
 				<MediaQuery maxWidth={670}>
 					<About />
 					<Portfolio />
+					<Resume />
 				</MediaQuery>
 				<MediaQuery minWidth={671}>
 					<About />
 					<Portfolio />
+					<Resume />
 				</MediaQuery>
 			</>
 		</ThemeProvider>
