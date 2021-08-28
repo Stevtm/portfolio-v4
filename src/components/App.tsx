@@ -22,7 +22,7 @@ const Grid = styled.div`
 
 const Content = styled.div`
 	height: 100vh;
-	overflow: scroll;
+	overflow-y: scroll;
 `;
 
 const App: React.FC = () => {
