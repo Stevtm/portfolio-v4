@@ -1,5 +1,5 @@
 // import interface for tool
-import { ToolItem } from "../../../../helpers/interfaces";
+import { ToolItem } from "../../../../utils/interfaces";
 
 // import styled components
 import { ToolBubble } from "./styles";

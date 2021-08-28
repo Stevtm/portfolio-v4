@@ -2,7 +2,7 @@
 import Tool from "./Tool";
 
 // import interfaces
-import { PortfolioItem } from "../../../helpers/interfaces";
+import { PortfolioItem } from "../../../utils/interfaces";
 
 // import icons
 import { FaGithub } from "react-icons/fa";

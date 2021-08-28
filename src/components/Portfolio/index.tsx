@@ -1,5 +1,5 @@
 import Project from "./Project";
-import { portfolioInfo } from "../../helpers/portfolio-info";
+import { portfolioInfo } from "../../utils/portfolio-info";
 
 // import styled components
 import {
