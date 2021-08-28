@@ -12,5 +12,5 @@ export const ToolBubble = styled.div`
 	line-height: 1.25rem;
 
 	/* visual decorations */
-	background-color: ${({ theme }) => theme.secondary};
+	background-color: ${({ theme }) => theme.pastelGreen.dark};
 `;
