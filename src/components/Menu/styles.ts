@@ -6,30 +6,40 @@ interface StyledMenuProps {
 }
 
 export const StyledMenu = styled.nav<StyledMenuProps>`
+	/* box model */
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	background: whitesmoke;
 	height: 100vh;
-	width: 100%;
-	text-align: center;
+	justify-content: center;
+	left: 0;
+	margin: 0 auto;
 	padding: 2rem;
 	position: fixed;
 	top: 0;
-	left: 0;
-	transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
-	transition: transform 0.3s ease-in-out;
-	margin: 0 auto;
+	width: 100%;
 	z-index: 2;
 
-	a {
-		font-size: 2rem;
-		text-transform: uppercase;
-		padding: 2rem 0;
-		font-weight: bold;
-		letter-spacing: 0.5rem;
-		color: ${({ theme }) => theme.pastelGreen.dark};
-		text-decoration: none;
-		transition: color 0.3s linear;
-	}
+	/* typography */
+	text-align: center;
+
+	/* visual decorations */
+	background: whitesmoke;
+	transition: transform 0.3s ease-in-out;
+	transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
+`;
+
+export const MenuLink = styled.a`
+	/* box model */
+	padding: 2rem 0;
+
+	/* typography */
+	font-size: 2rem;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.5rem;
+
+	/* visual decorations */
+	color: ${({ theme }) => theme.pastelGreen.dark};
+	transition: color 0.3s linear;
 `;

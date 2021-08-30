@@ -6,19 +6,24 @@ interface ButtonProps {
 }
 
 export const StyledBurger = styled.button<ButtonProps>`
-	position: fixed;
-	top: 1rem;
-	right: 1.5rem;
+	/* box model */
+	border: none;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	width: 2rem;
 	height: 2rem;
-	background: transparent;
-	border: none;
-	cursor: pointer;
+	justify-content: space-around;
 	padding: 0;
+	position: fixed;
+	right: 1.5rem;
+	top: 1rem;
+	width: 2rem;
 	z-index: 10;
+
+	/* typography */
+
+	/* visual decorations */
+	background: transparent;
+	cursor: pointer;
 
 	&:focus {
 		outline: none;
