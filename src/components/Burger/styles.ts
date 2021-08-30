@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const StyledBurger = styled.button`
+// create interface for button props
+interface ButtonProps {
+	open: boolean;
+}
+
+export const StyledBurger = styled.button<ButtonProps>`
 	position: fixed;
 	top: 1rem;
 	right: 1.5rem;
@@ -22,8 +27,7 @@ export const StyledBurger = styled.button`
 	div {
 		width: 2rem;
 		height: 0.25rem;
-		background: ${({ theme, open }) =>
-			open ? theme.secondary : theme.secondary};
+		background: ${({ theme }) => theme.pastelGreen.dark};
 		border-radius: 10px;
 		transition: all 0.3s linear;
 		position: relative;

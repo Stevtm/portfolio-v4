@@ -8,6 +8,7 @@ import { GlobalStyles } from "../global";
 import { theme } from "../theme";
 
 // import components
+import Nav from "../components/Nav";
 import Title from "../components/Title";
 import About from "../components/About";
 import Portfolio from "./Portfolio";
@@ -31,6 +32,7 @@ const App: React.FC = () => {
 			<>
 				<GlobalStyles />
 				<MediaQuery maxWidth={670}>
+					<Nav />
 					<Title />
 					<About />
 					<Portfolio />

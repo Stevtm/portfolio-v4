@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const StyledMenu = styled.nav`
+// create interface for menu props
+interface StyledMenuProps {
+	open: boolean;
+}
+
+export const StyledMenu = styled.nav<StyledMenuProps>`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -23,7 +28,7 @@ export const StyledMenu = styled.nav`
 		padding: 2rem 0;
 		font-weight: bold;
 		letter-spacing: 0.5rem;
-		color: ${({ theme }) => theme.secondary};
+		color: ${({ theme }) => theme.pastelGreen.dark};
 		text-decoration: none;
 		transition: color 0.3s linear;
 	}

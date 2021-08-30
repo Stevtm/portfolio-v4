@@ -1,9 +1,13 @@
-import { bool, func } from "prop-types";
-
 // import styled components
 import { StyledBurger } from "./styles";
 
-const Burger: React.FC = ({ open, setOpen, onClickOutside }) => {
+// create interface for props
+interface BurgerProps {
+	open: boolean;
+	setOpen: (open: boolean) => void;
+}
+
+const Burger: React.FC<BurgerProps> = ({ open, setOpen }) => {
 	return (
 		<StyledBurger
 			open={open}
@@ -16,11 +20,6 @@ const Burger: React.FC = ({ open, setOpen, onClickOutside }) => {
 			<div></div>
 		</StyledBurger>
 	);
-};
-
-Burger.propTypes = {
-	open: bool.isRequired,
-	setOpen: func.isRequired,
 };
 
 export default Burger;
