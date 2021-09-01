@@ -29,7 +29,7 @@ export const AboutHeader = styled.div`
 	display: flex;
 	flex-direction: row;
 	text-align: center;
-	margin: 10px 0;
+	padding: 10px 0;
 `;
 
 export const HeaderText = styled.h2`
@@ -42,6 +42,8 @@ export const HeaderText = styled.h2`
 	font-size: 3rem;
 	font-weight: 500;
 	line-height: 1;
+
+	/* visual decorations */
 `;
 
 export const AboutContent = styled.div`
@@ -55,6 +57,7 @@ export const AboutContent = styled.div`
 
 	/* visual decorations */
 	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 
 	@media (min-width: 1281px) {
 		flex-direction: row;

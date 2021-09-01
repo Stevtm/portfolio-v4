@@ -26,15 +26,6 @@ export const ResumeHeader = styled.div`
 	margin: 10px 0;
 `;
 
-// export const ColorBar = styled.div`
-// 	/* box model */
-// 	width: 0.45rem;
-// 	margin-right: 10px;
-
-// 	/* visual decorations */
-// 	background-color: ${({ theme }) => theme.prussianBlue.DEFAULT};
-// `;
-
 export const HeaderText = styled.h2`
 	/* box model */
 	margin: 5px 0;
@@ -70,6 +61,7 @@ export const TechContainer = styled.div`
 
 	/* visual decorations */
 	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 `;
 
 export const Tech = styled.div`

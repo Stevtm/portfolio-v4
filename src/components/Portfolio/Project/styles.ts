@@ -44,8 +44,10 @@ export const ProjectContent = styled.div`
 	/* box model */
 	padding: 10px;
 	border-radius: 0 0 10px 10px;
+
 	/* visual decorations */
 	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 `;
 
 export const ProjectDesc = styled.p`
