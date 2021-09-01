@@ -28,6 +28,7 @@ import {
 	SiStyledComponents,
 	SiJavascript,
 	SiTypescript,
+	SiRedux,
 } from "react-icons/si";
 
 const Resume = () => {
@@ -62,6 +63,10 @@ const Resume = () => {
 						<Tech>
 							<FaReact title="React"></FaReact>
 							<TechName>React</TechName>
+						</Tech>
+						<Tech>
+							<SiRedux title="Redux"></SiRedux>
+							<TechName>Redux</TechName>
 						</Tech>
 						<Tech>
 							<SiTailwindcss title="Tailwind CSS"></SiTailwindcss>
