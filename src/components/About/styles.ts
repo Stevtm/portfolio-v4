@@ -39,7 +39,7 @@ export const HeaderText = styled.h2`
 	/* typography */
 	color: ${({ theme }) => theme.pastelBlue.dark};
 	font-family: "Staatliches";
-	font-size: 3rem;
+	font-size: 3.75rem;
 	font-weight: 500;
 	line-height: 1;
 
