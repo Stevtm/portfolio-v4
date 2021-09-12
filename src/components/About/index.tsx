@@ -27,13 +27,16 @@ const About: React.FC = () => {
 						<AboutText>
 							I'm a full stack web developer who is passionate about solving
 							problems and building visually appealing, responsive, and
-							functional web applications. I love programming because it lets me
-							solve problems.
+							functional web applications. I have been developing web
+							applications for over 3 years, and I recently earned a certificate
+							in Full Stack Web Development from the University of Toronto
+							Coding Bootcamp.
 						</AboutText>
 						<AboutText>
-							Whether it's creating a web app to log my workout data or using
-							code to perform biomechanical analysis, I look forward to taking a
-							challenge and solving it.
+							I'm experienced using tools including MERN stack, TypeScript,
+							GraphQL, and styled-components, and I'm always looking to learn
+							more! Feel free to reach out if you have any questions or comments
+							about my projects or experience!
 						</AboutText>
 						<ContactButton>
 							<a href="mailto:steventmaddison@outlook.com">Get in Touch</a>
