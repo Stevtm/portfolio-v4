@@ -71,6 +71,21 @@ export const TextAndButton = styled.div`
 	flex-direction: column;
 `;
 
+export const IntroText = styled.h3`
+	/* box model */
+	padding: 0px 5px;
+	margin: 15px 0;
+	width: 100%;
+
+	/* typography */
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1rem;
+	text-align: left;
+
+	/* visual decorations */
+`;
+
 export const AboutText = styled.p`
 	/* box model */
 	padding: 0px 5px;
@@ -79,7 +94,7 @@ export const AboutText = styled.p`
 
 	/* typography */
 	font-size: 1.125rem;
-	line-height: 1.75rem;
+	line-height: 1.6rem;
 `;
 
 export const ContactButton = styled.button`
@@ -116,23 +131,22 @@ export const ProfilePic = styled.img`
 	object-fit: cover;
 	padding: 0 5px;
 	margin: 10px 5px;
-	width: 100%;
+	width: 90%;
 
 	@media (min-width: 1024px) {
 		/* box model */
-		width: 85%;
+		width: 80%;
 	}
 
 	@media (min-width: 1150px) {
 		/* box model */
-		width: 80%;
-		max-width: 400px;
+		max-width: 350px;
 	}
 
 	@media (min-width: 1281px) {
 		/* box model */
 		height: 250px;
-		width: 40%;
+		width: 35%;
 		max-width: 400px;
 	}
 `;

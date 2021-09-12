@@ -8,6 +8,7 @@ import {
 	HeaderText,
 	AboutContent,
 	TextAndButton,
+	IntroText,
 	AboutText,
 	ContactButton,
 	ProfilePic,
@@ -23,7 +24,7 @@ const About: React.FC = () => {
 				</AboutHeader>
 				<AboutContent>
 					<TextAndButton>
-						<AboutText>Hi! I'm Steven.</AboutText>
+						<IntroText>Hi! I'm Steven.</IntroText>
 						<AboutText>
 							I'm a full stack web developer who is passionate about solving
 							problems and building visually appealing, responsive, and
