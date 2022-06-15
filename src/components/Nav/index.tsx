@@ -8,29 +8,29 @@ import { ReactComponent as SLogo } from "../../assets/images/Logo.svg";
 import { Header, CollapsedContainer, Logo } from "./styles";
 
 const Nav: React.FC = () => {
-	const [openBurger, setOpenBurger] = useState(false);
+  const [openBurger, setOpenBurger] = useState(false);
 
-	useEffect(() => {
-		if (openBurger === true) {
-			document.body.setAttribute("style", "overflow: hidden");
-		} else {
-			document.body.setAttribute("style", "overflow: auto");
-		}
-	}, [openBurger]);
+  useEffect(() => {
+    if (openBurger === true) {
+      document.body.setAttribute("style", "overflow: hidden");
+    } else {
+      document.body.setAttribute("style", "overflow: auto");
+    }
+  }, [openBurger]);
 
-	return (
-		<Header>
-			<CollapsedContainer>
-				<Logo href="/">
+  return (
+    <Header>
+      <CollapsedContainer>
+        {/* <Logo href="/">
 					<SLogo></SLogo>
-				</Logo>
-				<div>
-					<Burger open={openBurger} setOpen={setOpenBurger}></Burger>
-					<Menu open={openBurger} setOpen={setOpenBurger}></Menu>
-				</div>
-			</CollapsedContainer>
-		</Header>
-	);
+				</Logo> */}
+        <div>
+          <Burger open={openBurger} setOpen={setOpenBurger}></Burger>
+          <Menu open={openBurger} setOpen={setOpenBurger}></Menu>
+        </div>
+      </CollapsedContainer>
+    </Header>
+  );
 };
 
 export default Nav;
