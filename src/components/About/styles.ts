@@ -10,13 +10,16 @@ export const Anchor = styled.span`
 
 export const AboutSection = styled.section`
   /* box model */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
 
   /* visual decorations */
   background-color: ${({ theme }) => theme.pastelBlue.lighter};
 
-  @media (min-width: 671px) {
-    padding-top: 60px;
+  > div {
+    max-width: 1000px;
   }
 `;
 
@@ -26,6 +29,7 @@ export const AboutHeader = styled.div`
   flex-direction: row;
   text-align: center;
   padding: 10px 0;
+  width: 100%;
 `;
 
 export const HeaderText = styled.h2`
