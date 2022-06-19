@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 // import theme and global style
 import { GlobalStyles } from "../global";
 import { theme } from "../theme";
+import { AppBody } from "./styles";
 
 // import components
 import Nav from "../components/Nav";
@@ -16,7 +17,7 @@ import Footer from "./Footer";
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
-      <>
+      <AppBody>
         <GlobalStyles />
         <Nav />
         <Title />
@@ -24,7 +25,7 @@ const App: React.FC = () => {
         <Portfolio />
         <Resume />
         <Footer />
-      </>
+      </AppBody>
     </ThemeProvider>
   );
 };
