@@ -5,7 +5,7 @@ export const GlobalStyles = createGlobalStyle`
     html, body {
         /* box model */
         margin: 0; 
-        padding: 0;
+        padding: 0;1700
 
         /* visual decorations */
     }
@@ -19,9 +19,10 @@ export const GlobalStyles = createGlobalStyle`
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         height: 100vh;
         text-rendering: optimizeLegibility;
+    }
 
-        // background-color: "#fffcf2";
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='3000' height='1300' preserveAspectRatio='none' viewBox='0 0 3000 1300'%3E%3Cg mask='url(&quot;%23SvgjsMask1044&quot;)' fill='none'%3E%3Cpath d='M 0,189 C 200,153.8 600,-3.8 1000,13 C 1400,29.8 1600,253.4 2000,273 C 2400,292.6 2800,143.4 3000,111L3000 1300L0 1300z' fill='rgba(175, 183, 193, 1)'%3E%3C/path%3E%3Cpath d='M 0,567 C 200,540.8 600,421.4 1000,436 C 1400,450.6 1600,642.8 2000,640 C 2400,637.2 2800,465.6 3000,422L3000 1300L0 1300z' fill='rgba(188, 177, 192, 1)'%3E%3C/path%3E%3Cpath d='M 0,900 C 120,865.8 360,745.6 600,729 C 840,712.4 960,823 1200,817 C 1440,811 1560,669.6 1800,699 C 2040,728.4 2160,949 2400,964 C 2640,979 2880,812 3000,774L3000 1300L0 1300z' fill='rgba(176, 193, 181, 1)'%3E%3C/path%3E%3Cpath d='M 0,1129 C 100,1144.2 300,1212.2 500,1205 C 700,1197.8 800,1084.6 1000,1093 C 1200,1101.4 1300,1243.4 1500,1247 C 1700,1250.6 1800,1103.6 2000,1111 C 2200,1118.4 2300,1299.4 2500,1284 C 2700,1268.6 2900,1084 3000,1034L3000 1300L0 1300z' fill='rgba(201, 209, 215, 1)'%3E%3C/path%3E%3C/g%3E%3Cdefs%3E%3Cmask id='SvgjsMask1044'%3E%3Crect width='3000' height='1300' fill='%23ffffff'%3E%3C/rect%3E%3C/mask%3E%3C/defs%3E%3C/svg%3E");
+    body > div {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1500' height='1300' preserveAspectRatio='none' viewBox='0 0 2000 1300'%3E%3Cg mask='url(&quot;%23SvgjsMask1093&quot;)' fill='none'%3E%3Cpath d='M 0,112 C 100,135 300,226.4 500,227 C 700,227.6 800,106 1000,115 C 1200,124 1300,283.6 1500,272 C 1700,260.4 1900,100 2000,57L2000 1300L0 1300z' fill='rgba(175, 183, 193, 1)'%3E%3C/path%3E%3Cpath d='M 0,477 C 133.4,486.4 400.2,542 667,524 C 933.8,506 1067.4,368.8 1334,387 C 1600.6,405.2 1866.8,569.4 2000,615L2000 1300L0 1300z' fill='rgba(188, 177, 192, 1)'%3E%3C/path%3E%3Cpath d='M 0,700 C 100,741.8 300,892.8 500,909 C 700,925.2 800,786.6 1000,781 C 1200,775.4 1300,889 1500,881 C 1700,873 1900,769 2000,741L2000 1300L0 1300z' fill='rgba(176, 193, 181, 1)'%3E%3C/path%3E%3Cpath d='M 0,1266 C 80,1224.8 240,1083 400,1060 C 560,1037 640,1137.4 800,1151 C 960,1164.6 1040,1122.8 1200,1128 C 1360,1133.2 1440,1188.6 1600,1177 C 1760,1165.4 1920,1091.4 2000,1070L2000 1300L0 1300z' fill='rgba(201, 209, 215, 1)'%3E%3C/path%3E%3C/g%3E%3Cdefs%3E%3Cmask id='SvgjsMask1093'%3E%3Crect width='2000' height='1300' fill='%23ffffff'%3E%3C/rect%3E%3C/mask%3E%3C/defs%3E%3C/svg%3E");
         background-size: cover;
         background-repeat: no-repeat;
     }
