@@ -16,7 +16,6 @@ export const AboutSection = styled.section`
   padding: 20px;
 
   /* visual decorations */
-  background-color: ${({ theme }) => theme.pastelBlue.lighter};
 
   > div {
     max-width: 1000px;

@@ -6,6 +6,9 @@ export const GlobalStyles = createGlobalStyle`
         /* box model */
         margin: 0; 
         padding: 0;
+
+        /* visual decorations */
+        background-color: "#fffcf2";
     }
 
     *, *::after, *::before {

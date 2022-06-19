@@ -16,7 +16,6 @@ export const PortfolioSection = styled.section`
   padding: 20px;
 
   /* visual decorations */
-  background-color: ${({ theme }) => theme.pastelGreen.lighter};
 
   > div {
     max-width: 1000px;

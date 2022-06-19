@@ -16,7 +16,6 @@ export const ResumeSection = styled.section`
   padding: 20px;
 
   /* visual decorations */
-  background-color: ${({ theme }) => theme.prussianBlue.lighter};
 
   > div {
     max-width: 1000px;
