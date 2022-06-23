@@ -16,6 +16,7 @@ export const AboutSection = styled.section`
   padding: 20px;
 
   /* visual decorations */
+  background-color: ${({ theme }) => theme.pastelBlue.dark};
 
   > div {
     max-width: 1000px;
@@ -43,13 +44,11 @@ export const HeaderText = styled.h2`
   margin: 5px 0;
 
   /* typography */
-  color: ${({ theme }) => theme.pastelBlue.dark};
+  color: white;
   font-family: "Staatliches";
   font-size: 3.75rem;
   font-weight: 500;
   line-height: 1;
-
-  /* visual decorations */
 `;
 
 export const AboutContent = styled.div`
