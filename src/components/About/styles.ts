@@ -27,12 +27,19 @@ export const AboutHeader = styled.div`
   display: flex;
   flex-direction: row;
   text-align: center;
-  padding: 10px 0;
+  padding: 15px;
   width: 100%;
+
+  /* typography */
+
+  /* visual decorations */
 `;
 
 export const HeaderText = styled.h2`
   /* box model */
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   margin: 5px 0;
 
   /* typography */

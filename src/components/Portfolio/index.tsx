@@ -1,30 +1,32 @@
 import Project from "./Project";
+import { FaCode } from "react-icons/fa";
 import { portfolioInfo } from "../../utils/portfolio-info";
 
 // import styled components
 import {
-	Anchor,
-	PortfolioHeader,
-	PortfolioSection,
-	ColorBar,
-	HeaderText,
+  Anchor,
+  PortfolioHeader,
+  PortfolioSection,
+  HeaderText,
 } from "./styles";
 
 const Portfolio: React.FC = () => {
-	return (
-		<>
-			<Anchor id={"portfolio"}></Anchor>
-			<PortfolioSection>
-				<PortfolioHeader>
-					<ColorBar></ColorBar>
-					<HeaderText>Portfolio</HeaderText>
-				</PortfolioHeader>
-				{portfolioInfo.map((info) => {
-					return <Project info={info} key={info.id}></Project>;
-				})}
-			</PortfolioSection>
-		</>
-	);
+  return (
+    <>
+      <Anchor id={"portfolio"}></Anchor>
+      <PortfolioSection>
+        <PortfolioHeader>
+          <HeaderText>
+            <FaCode style={{ paddingRight: "10px" }} />
+            My Projects
+          </HeaderText>
+        </PortfolioHeader>
+        {portfolioInfo.map((info) => {
+          return <Project info={info} key={info.id}></Project>;
+        })}
+      </PortfolioSection>
+    </>
+  );
 };
 
 export default Portfolio;

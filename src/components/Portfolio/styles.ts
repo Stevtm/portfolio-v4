@@ -22,27 +22,22 @@ export const PortfolioSection = styled.section`
   }
 `;
 
-export const ColorBar = styled.div`
-  /* box model */
-  width: 0.55rem;
-  margin-right: 10px;
-
-  /* visual decorations */
-  background-color: ${({ theme }) => theme.pastelGreen.DEFAULT};
-`;
-
 export const PortfolioHeader = styled.div`
   /* box model */
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin: 25px 0;
+  margin: 25px 0 0 0;
   width: 100%;
 `;
 
 export const HeaderText = styled.h2`
   /* box model */
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   margin: 5px 0;
+
   /* typography */
   color: ${({ theme }) => theme.pastelGreen.dark};
   font-family: "Staatliches";

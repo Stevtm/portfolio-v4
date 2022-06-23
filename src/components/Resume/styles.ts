@@ -23,20 +23,23 @@ export const ResumeSection = styled.section`
 `;
 
 export const ResumeHeader = styled.div`
-	/* box model */
-	display: flex;
-	flex-direction: row;
-	text-align: center;
-	margin: 10px 0;
-	width: 100%:
+  /* box model */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 10px 0;
+  width: 100%;
 `;
 
 export const HeaderText = styled.h2`
   /* box model */
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   margin: 5px 0;
 
   /* typography */
-  color: ${({ theme }) => theme.prussianBlue.dark};
+  color: ${({ theme }) => theme.pastelPurple.dark};
   font-family: "Staatliches";
   font-size: 3.75rem;
   font-weight: 500;
@@ -55,7 +58,7 @@ export const ResumeText = styled.h3`
 export const TechContainer = styled.div`
   /* box model */
   align-items: center;
-  border-top: 10px solid ${({ theme }) => theme.prussianBlue.DEFAULT};
+  border-top: 10px solid ${({ theme }) => theme.pastelPurple.DEFAULT};
   border-radius: 0px 0px 30px 30px;
   display: flex;
   flex-direction: row;
@@ -86,7 +89,7 @@ export const Icons = styled.div`
   justify-content: center;
 
   /* typography */
-  color: ${({ theme }) => theme.prussianBlue.dark};
+  color: ${({ theme }) => theme.pastelPurple.dark};
 
   svg {
     /* box model */
@@ -121,12 +124,12 @@ export const ResumeButton = styled.button`
   line-height: 1.75rem;
 
   /* visual decorations */
-  background-color: ${({ theme }) => theme.prussianBlue.dark};
+  background-color: ${({ theme }) => theme.pastelPurple.dark};
   cursor: pointer;
   transition: 0.2s all;
 
   &:hover {
-    background-color: ${({ theme }) => theme.prussianBlue.DEFAULT};
+    background-color: ${({ theme }) => theme.pastelPurple.DEFAULT};
   }
 `;
 

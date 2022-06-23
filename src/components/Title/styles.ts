@@ -23,7 +23,7 @@ export const ColorBar = styled.div`
   margin-right: 10px;
 
   /* visual decorations */
-  background-color: ${({ theme }) => theme.pastelGreen.DEFAULT};
+  background-color: ${({ theme }) => theme.pastelBlue.DEFAULT};
 `;
 
 export const Name = styled.h1`
@@ -38,7 +38,7 @@ export const Name = styled.h1`
   line-height: 1;
 
   span {
-    color: ${({ theme }) => theme.pastelGreen.dark};
+    color: ${({ theme }) => theme.pastelBlue.dark};
   }
 `;
 
@@ -82,7 +82,7 @@ export const Link = styled.a`
     transition: 0.2s all ease-in-out;
 
     &:hover {
-      color: ${({ theme }) => theme.pastelGreen.dark};
+      color: ${({ theme }) => theme.pastelBlue.dark};
     }
   }
 `;
