@@ -35,11 +35,11 @@ const Project: React.FC<ProjectProps> = ({ info }) => {
         <ProjectTitle>{title}</ProjectTitle>
         <Icons>
           <Link href={github} target="_blank">
-            <FaGithub style={{ color: "white" }}></FaGithub>
+            <FaGithub />
           </Link>
           {link && (
             <Link href={link} target="_blank">
-              <BiLinkExternal style={{ color: "white" }}></BiLinkExternal>
+              <BiLinkExternal />
             </Link>
           )}
         </Icons>

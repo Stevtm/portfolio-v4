@@ -22,7 +22,7 @@ export const ProjectHeader = styled.div`
   font-family: "Staatliches";
 
   /* visual decorations */
-  color: white;
+  color: ${({ theme }) => theme.floralWhite};
 `;
 
 export const ProjectTitle = styled.h1`
@@ -42,8 +42,9 @@ export const ColorBar = styled.div`
   height: 10px;
   width: 100%;
   margin-right: 10px;
+
   /* visual decorations */
-  background-color: ${({ theme }) => theme.pastelGreen.DEFAULT};
+  background-color: ${({ theme }) => theme.polishedPine};
 `;
 
 export const ProjectContent = styled.div`
@@ -52,13 +53,14 @@ export const ProjectContent = styled.div`
   border-radius: 0 0 10px 10px;
 
   /* visual decorations */
-  background-color: white;
+  background-color: ${({ theme }) => theme.floralWhite};
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 `;
 
 export const ProjectDesc = styled.p`
   /* box model */
   margin: 10px 0;
+
   /* typography */
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -70,22 +72,22 @@ export const ProjectTools = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   margin: 10px 0;
-  /* visual decorations */
 `;
 
 export const Link = styled.a`
   /* box model */
   margin: 0 5px;
-  /* typography */
-  color: black;
+
   svg {
     /* typography */
+    color: ${({ theme }) => theme.floralWhite};
     font-size: 30px;
+
     /* visual decorations */
     transition: 0.2s all ease-in-out;
+
     &:hover {
-      /* typography */
-      color: white;
+      color: ${({ theme }) => theme.ashGray};
     }
   }
 `;

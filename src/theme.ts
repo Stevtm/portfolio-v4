@@ -11,7 +11,12 @@ interface Color {
 }
 
 export const theme: Color = {
-  floralWhite: "#fffcf2",
+  floralWhite: "#fffaf0",
+  gunmetal: "#242c31",
+  polishedPine: "#61988E",
+  ashGray: "#A0B2A6",
+  pineTree: "#253028",
+  desertSand: "#eabda8",
   pastelBlue: {
     lighter: "#ced6db",
     light: "#c9d1d7",

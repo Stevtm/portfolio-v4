@@ -16,7 +16,7 @@ export const AboutSection = styled.section`
   padding: 20px;
 
   /* visual decorations */
-  background-color: ${({ theme }) => theme.pastelBlue.dark};
+  background-color: ${({ theme }) => theme.gunmetal};
 
   > div {
     max-width: 1000px;
@@ -44,7 +44,7 @@ export const HeaderText = styled.h2`
   margin: 5px 0;
 
   /* typography */
-  color: white;
+  color: ${({ theme }) => theme.floralWhite};
   font-family: "Staatliches";
   font-size: 3.75rem;
   font-weight: 500;
@@ -54,14 +54,14 @@ export const HeaderText = styled.h2`
 export const AboutContent = styled.div`
   /* box model */
   align-items: center;
-  border-top: 10px solid ${({ theme }) => theme.pastelBlue.DEFAULT};
+  border-top: 10px solid ${({ theme }) => theme.polishedPine};
   border-radius: 0px 0px 30px 30px;
   display: flex;
   flex-direction: column;
   padding: 15px;
 
   /* visual decorations */
-  background-color: white;
+  background-color: ${({ theme }) => theme.floralWhite};
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 
   @media (min-width: 1281px) {
@@ -110,17 +110,16 @@ export const ContactButton = styled.button`
   margin: 10px auto;
 
   /* typography */
-  color: white;
   font-size: 1.125rem;
   line-height: 1.75rem;
 
   /* visual decorations */
-  background-color: ${({ theme }) => theme.pastelBlue.dark};
+  background-color: ${({ theme }) => theme.polishedPine};
   cursor: pointer;
   transition: 0.2s all;
 
   &:hover {
-    background-color: ${({ theme }) => theme.pastelBlue.DEFAULT};
+    background-color: ${({ theme }) => theme.ashGray};
   }
 
   > a {

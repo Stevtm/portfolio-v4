@@ -9,8 +9,11 @@ export const FooterContainer = styled.div`
   padding: 15px 10px;
   width: 100%;
 
+  /* typography */
+  color: ${({ theme }) => theme.floralWhite};
+
   /* visual decorations */
-  background-color: ${({ theme }) => theme.pastelPurple.dark};
+  background-color: ${({ theme }) => theme.gunmetal};
 `;
 
 export const Link = styled.a`
@@ -25,13 +28,13 @@ export const Link = styled.a`
 
   svg {
     /* typography */
-    color: black;
+    color: ${({ theme }) => theme.floralWhite};
 
     /* visual decorations */
     transition: 0.2s all ease-in-out;
 
     &:hover {
-      color: ${({ theme }) => theme.pastelPurple.dark};
+      color: ${({ theme }) => theme.ashGray};
     }
   }
 `;
