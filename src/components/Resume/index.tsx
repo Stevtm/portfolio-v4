@@ -24,12 +24,14 @@ import {
   SiMysql,
   SiGraphql,
   SiJest,
-  SiJquery,
   SiFirebase,
-  SiStyledComponents,
+  SiStyledcomponents,
   SiJavascript,
   SiTypescript,
   SiRedux,
+  SiCypress,
+  SiCsharp,
+  SiChakraui,
 } from "react-icons/si";
 
 const Resume = () => {
@@ -40,7 +42,7 @@ const Resume = () => {
         <ResumeHeader>
           <HeaderText>
             <FaToolbox style={{ paddingRight: "10px" }} />
-            Résumé
+            My Skills
           </HeaderText>
         </ResumeHeader>
         <TechContainer>
@@ -65,28 +67,20 @@ const Resume = () => {
               <TechName>CSS3</TechName>
             </Tech>
             <Tech>
+              <SiCsharp title="Csharp"></SiCsharp>
+              <TechName>Csharp</TechName>
+            </Tech>
+            <Tech>
+              <FaNodeJs title="Node.js"></FaNodeJs>
+              <TechName>Node.js</TechName>
+            </Tech>
+            <Tech>
               <FaReact title="React"></FaReact>
               <TechName>React</TechName>
             </Tech>
             <Tech>
               <SiRedux title="Redux"></SiRedux>
               <TechName>Redux</TechName>
-            </Tech>
-            <Tech>
-              <SiTailwindcss title="Tailwind CSS"></SiTailwindcss>
-              <TechName>Tailwind CSS</TechName>
-            </Tech>
-            <Tech>
-              <SiStyledComponents title="styled-components"></SiStyledComponents>
-              <TechName>styled-components</TechName>
-            </Tech>
-            <Tech>
-              <SiJquery title="jQuery"></SiJquery>
-              <TechName>jQuery</TechName>
-            </Tech>
-            <Tech>
-              <FaNodeJs title="Node.js"></FaNodeJs>
-              <TechName>Node.js</TechName>
             </Tech>
             <Tech>
               <SiMongodb title="MongoDB"></SiMongodb>
@@ -101,12 +95,28 @@ const Resume = () => {
               <TechName>GraphQL</TechName>
             </Tech>
             <Tech>
-              <SiJest title="Jest"></SiJest>
-              <TechName>Jest</TechName>
-            </Tech>
-            <Tech>
               <SiFirebase title="Firebase"></SiFirebase>
               <TechName>Firebase</TechName>
+            </Tech>
+            <Tech>
+              <SiTailwindcss title="Tailwind CSS"></SiTailwindcss>
+              <TechName>Tailwind CSS</TechName>
+            </Tech>
+            <Tech>
+              <SiStyledcomponents title="styled-components"></SiStyledcomponents>
+              <TechName>styled-components</TechName>
+            </Tech>
+            <Tech>
+              <SiChakraui title="ChakraUI"></SiChakraui>
+              <TechName>ChakraUI</TechName>
+            </Tech>
+            <Tech>
+              <SiCypress title="Cypress"></SiCypress>
+              <TechName>Cypress</TechName>
+            </Tech>
+            <Tech>
+              <SiJest title="Jest"></SiJest>
+              <TechName>Jest</TechName>
             </Tech>
           </Icons>
           <ResumeButton>

@@ -30,18 +30,24 @@ const About: React.FC = () => {
           <TextAndButton>
             <IntroText>Hi! I'm Steven.</IntroText>
             <AboutText>
-              I'm a full stack web developer who is passionate about solving
-              problems and building visually appealing, responsive, and
-              functional web applications. I have been developing web
-              applications for over 3 years, and I recently earned a certificate
-              in Full Stack Web Development from the University of Toronto
-              Coding Bootcamp.
+              I like to solve problems and build visually appealing, responsive,
+              and functional web applications. I've been developing web apps for
+              over 4 years, and I recently earned a certificate in Full Stack
+              Development from the University of Toronto Coding Bootcamp.
             </AboutText>
             <AboutText>
-              I'm experienced using tools including MERN stack, TypeScript,
-              GraphQL, and styled-components, and I'm always looking to learn
-              more! Feel free to reach out if you have any questions or comments
-              about my projects or experience!
+              I have experience using tools including the MERN stack,
+              TypeScript, GraphQL, and styled-components, and I'm always looking
+              to learn more! Feel free to reach out if you have any questions or
+              comments about my projects or experience!
+            </AboutText>
+            <AboutText>
+              I'm currently working as a software quality assurance anaylst
+              after two years working with enterprise software and production
+              equipment in the pharmaceutical and medical device industries. I
+              write automated tests using Cypress and performing manual testing
+              on new enhancements. Either way, my main focus is making sure that
+              we deliver a functional, beautiful experience to our clients.
             </AboutText>
             <ContactButton>
               <a href="mailto:steventmaddison@outlook.com">Get in Touch</a>
