@@ -64,7 +64,7 @@ export const AboutContent = styled.div`
   background-color: ${({ theme }) => theme.floralWhite};
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 
-  @media (min-width: 1281px) {
+  @media (min-width: 1024px) {
     flex-direction: row;
   }
 `;
@@ -84,7 +84,7 @@ export const IntroText = styled.h3`
 
   /* typography */
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1rem;
   text-align: left;
 
@@ -94,7 +94,7 @@ export const IntroText = styled.h3`
 export const AboutText = styled.p`
   /* box model */
   padding: 0px 5px;
-  margin: 10px 0;
+  margin: 8px 0;
   width: 100%;
 
   /* typography */
@@ -135,22 +135,21 @@ export const ProfilePic = styled.img`
   object-fit: cover;
   padding: 0 5px;
   margin: 10px 5px;
-  width: 90%;
+  max-width: 300px;
 
-  @media (min-width: 1024px) {
-    /* box model */
-    width: 80%;
-  }
-
-  @media (min-width: 1150px) {
+  @media (min-width: 640px) {
     /* box model */
     max-width: 350px;
   }
 
-  @media (min-width: 1281px) {
+  @media (min-width: 768px) {
+    /* box model */
+    max-width: 400px;
+  }
+
+  @media (min-width: 1024px) {
     /* box model */
     height: 250px;
-    width: 35%;
-    max-width: 400px;
+    width: 100%;
   }
 `;
