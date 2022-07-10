@@ -6,6 +6,7 @@ import {
   Anchor,
   PortfolioHeader,
   PortfolioSection,
+  HeaderNumber,
   HeaderText,
 } from "./styles";
 
@@ -15,6 +16,7 @@ const Portfolio: React.FC = () => {
       <Anchor id={"portfolio"}></Anchor>
       <PortfolioSection>
         <PortfolioHeader>
+          <HeaderNumber>02.</HeaderNumber>
           <HeaderText>My Projects</HeaderText>
         </PortfolioHeader>
         {portfolioInfo.map((info) => {

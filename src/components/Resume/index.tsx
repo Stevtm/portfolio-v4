@@ -5,6 +5,7 @@ import {
   Anchor,
   ResumeSection,
   ResumeHeader,
+  HeaderNumber,
   HeaderText,
   ResumeText,
   TechContainer,
@@ -39,6 +40,7 @@ const Resume = () => {
       <Anchor id={"resume"}></Anchor>
       <ResumeSection>
         <ResumeHeader>
+          <HeaderNumber>03.</HeaderNumber>
           <HeaderText>My Skills</HeaderText>
         </ResumeHeader>
         <TechContainer>

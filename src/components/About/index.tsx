@@ -5,6 +5,7 @@ import {
   Anchor,
   AboutSection,
   AboutHeader,
+  HeaderNumber,
   HeaderText,
   AboutContent,
   AboutInfo,
@@ -21,6 +22,7 @@ const About: React.FC = () => {
       <Anchor id={"about"}></Anchor>
       <AboutSection>
         <AboutHeader>
+          <HeaderNumber>01.</HeaderNumber>
           <HeaderText>About Me</HeaderText>
         </AboutHeader>
         <AboutContent>

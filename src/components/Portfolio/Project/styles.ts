@@ -15,7 +15,7 @@ export const ProjectHeader = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 15px;
+  padding: 15px 0;
   margin: 0;
 
   /* typography */
@@ -29,9 +29,8 @@ export const ProjectTitle = styled.h1`
   /* box model */
   margin: 0;
   /* typography */
-  font-size: 1.5rem;
-  font-weight: 500;
   font-size: 1.875rem;
+  font-weight: 500;
   line-height: 2.25rem;
 `;
 

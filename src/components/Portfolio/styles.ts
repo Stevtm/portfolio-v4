@@ -27,12 +27,24 @@ export const PortfolioSection = styled.section`
 
 export const PortfolioHeader = styled.div`
   /* box model */
+  align-items: center;
   display: flex;
   flex-direction: row;
-  padding-left: 15px;
   text-align: center;
   margin: 25px 0 0 0;
   width: 100%;
+`;
+
+export const HeaderNumber = styled.h3`
+  /* box model */
+  padding-right: 10px;
+  margin: 0;
+
+  /* typography */
+  color: ${({ theme }) => theme.desertSand};
+  font-size: 1.875rem;
+
+  /* visual decorations */
 `;
 
 export const HeaderText = styled.h2`
@@ -45,7 +57,7 @@ export const HeaderText = styled.h2`
   /* typography */
   color: ${({ theme }) => theme.floralWhite};
   font-family: "Staatliches";
-  font-size: 3.75rem;
+  font-size: 3rem;
   font-weight: 500;
   line-height: 1;
 `;
