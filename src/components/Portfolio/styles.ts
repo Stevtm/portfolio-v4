@@ -29,6 +29,7 @@ export const PortfolioHeader = styled.div`
   /* box model */
   display: flex;
   flex-direction: row;
+  padding-left: 15px;
   text-align: center;
   margin: 25px 0 0 0;
   width: 100%;

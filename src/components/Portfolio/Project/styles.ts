@@ -5,7 +5,7 @@ export const ProjectContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 5px 0;
-  margin: 20px 0;
+  margin: 10px 0;
   width: 100%;
 `;
 
@@ -15,7 +15,7 @@ export const ProjectHeader = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px;
+  padding: 15px;
   margin: 0;
 
   /* typography */
@@ -49,7 +49,7 @@ export const ColorBar = styled.div`
 
 export const ProjectContent = styled.div`
   /* box model */
-  padding: 10px;
+  padding: 15px;
   border-radius: 0 0 10px 10px;
 
   /* visual decorations */
@@ -59,7 +59,8 @@ export const ProjectContent = styled.div`
 
 export const ProjectDesc = styled.p`
   /* box model */
-  margin: 10px 0;
+  padding: 0 5px 0 5px;
+  margin: 8px 0;
 
   /* typography */
   font-size: 1.125rem;

@@ -1,5 +1,4 @@
 import Project from "./Project";
-import { FaCode } from "react-icons/fa";
 import { portfolioInfo } from "../../utils/portfolio-info";
 
 // import styled components
@@ -16,10 +15,7 @@ const Portfolio: React.FC = () => {
       <Anchor id={"portfolio"}></Anchor>
       <PortfolioSection>
         <PortfolioHeader>
-          <HeaderText>
-            <FaCode style={{ paddingRight: "10px" }} />
-            My Projects
-          </HeaderText>
+          <HeaderText>My Projects</HeaderText>
         </PortfolioHeader>
         {portfolioInfo.map((info) => {
           return <Project info={info} key={info.id}></Project>;

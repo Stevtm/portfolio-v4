@@ -1,5 +1,4 @@
 import ResumePDF from "../../assets/documents/Resume_08Aug2021.pdf";
-import { FaToolbox } from "react-icons/fa";
 
 // import styled components
 import {
@@ -40,10 +39,7 @@ const Resume = () => {
       <Anchor id={"resume"}></Anchor>
       <ResumeSection>
         <ResumeHeader>
-          <HeaderText>
-            <FaToolbox style={{ paddingRight: "10px" }} />
-            My Skills
-          </HeaderText>
+          <HeaderText>My Skills</HeaderText>
         </ResumeHeader>
         <TechContainer>
           <ResumeText>
@@ -68,7 +64,7 @@ const Resume = () => {
             </Tech>
             <Tech>
               <SiCsharp title="Csharp"></SiCsharp>
-              <TechName>Csharp</TechName>
+              <TechName>C#</TechName>
             </Tech>
             <Tech>
               <FaNodeJs title="Node.js"></FaNodeJs>

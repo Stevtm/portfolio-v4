@@ -1,5 +1,4 @@
 import RecentPic from "../../assets/images/steven-min.png";
-import { FaInfoCircle } from "react-icons/fa";
 
 // import styled components
 import {
@@ -22,10 +21,7 @@ const About: React.FC = () => {
       <Anchor id={"about"}></Anchor>
       <AboutSection>
         <AboutHeader>
-          <HeaderText>
-            <FaInfoCircle style={{ paddingRight: "10px" }} />
-            About Me
-          </HeaderText>
+          <HeaderText>About Me</HeaderText>
         </AboutHeader>
         <AboutContent>
           <AboutInfo>

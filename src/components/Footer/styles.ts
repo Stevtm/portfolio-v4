@@ -6,7 +6,7 @@ export const FooterContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 15px 10px;
+  padding: 15px 10px 35px 10px;
   width: 100%;
 
   /* typography */

@@ -29,8 +29,8 @@ export const ResumeHeader = styled.div`
   /* box model */
   display: flex;
   flex-direction: row;
+  padding: 0 0 15px 15px;
   text-align: center;
-  margin: 10px 0;
   width: 100%;
 `;
 
