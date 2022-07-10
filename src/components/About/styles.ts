@@ -63,6 +63,13 @@ export const AboutContent = styled.div`
   /* visual decorations */
   background-color: ${({ theme }) => theme.floralWhite};
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+`;
+
+export const AboutInfo = styled.div`
+  /* box model */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 
   @media (min-width: 1024px) {
     flex-direction: row;
