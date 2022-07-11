@@ -30,7 +30,7 @@ export const ResumeHeader = styled.div`
   align-items: center;
   display: flex;
   flex-direction: row;
-  padding: 0 0 15px 0;
+  padding: 15px 0;
   text-align: center;
   width: 100%;
 `;
