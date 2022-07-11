@@ -22,6 +22,25 @@ export const NavBar = styled.nav`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 `;
 
+export const Logo = styled.a`
+  /* box model */
+  height: 68px;
+  left: 0;
+  margin: 16px 20px;
+  position: fixed;
+  top: 0;
+  width: 36px;
+
+  /* typography */
+  color: ${({ theme }) => theme.desertSand};
+
+  /* visual decorations */
+
+  @media (min-width: 671px) {
+    margin: 16px 35px;
+  }
+`;
+
 export const NavItems = styled.ul`
   /* box model */
   display: flex;

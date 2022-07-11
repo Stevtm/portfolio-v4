@@ -14,7 +14,7 @@ export const StyledBurger = styled.button<ButtonProps>`
   justify-content: space-around;
   padding: 0;
   position: fixed;
-  right: 1.5rem;
+  right: 20px;
   top: 1rem;
   width: 2rem;
   z-index: 10;

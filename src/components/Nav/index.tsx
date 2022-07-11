@@ -3,11 +3,13 @@ import MediaQuery from "react-responsive";
 
 import Burger from "../Burger";
 import Menu from "../Menu";
+import { ReactComponent as SLogo } from "../../assets/images/Logo.svg";
 
 // import styled components
 import {
   Header,
   NavBar,
+  Logo,
   NavItems,
   NavLink,
   NavItem,
@@ -29,6 +31,9 @@ const Nav: React.FC = () => {
   return (
     <Header>
       <NavBar>
+        <Logo>
+          <SLogo></SLogo>
+        </Logo>
         <MediaQuery maxWidth={670}>
           <div>
             <Burger open={openBurger} setOpen={setOpenBurger}></Burger>
