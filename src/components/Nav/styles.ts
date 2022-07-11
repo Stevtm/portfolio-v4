@@ -10,7 +10,7 @@ export const Header = styled.header`
   width: 100%;
 `;
 
-export const CollapsedContainer = styled.div`
+export const NavBar = styled.nav`
   /* box model */
   height: 8.5rem;
   width: 100%;
@@ -22,48 +22,75 @@ export const CollapsedContainer = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 `;
 
-export const NavBar = styled.ul`
+export const NavItems = styled.ul`
+  /* box model */
+  display: flex;
+  flex-direction: row;
+  height: 68px;
+  margin: 0 20px;
+  position: fixed;
+  right: 0rem;
+  top: 0rem;
+
+  /* typography */
+
+  /* visual decorations */
+  list-style-type: none;
+`;
+
+export const NavItem = styled.li`
+  /* box model */
+  display: flex;
+  margin: 0 15px;
+
+  /* typography */
+
+  /* visual decorations */
+`;
+
+export const NavLink = styled.a`
   /* box model */
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-  width: 50%;
-
-  /* visual decorations */
-  list-style: none;
-`;
-
-export const NavTitle = styled.li`
-  /* box model */
-  border-radius: 10px;
-  padding: 5px 5px;
-  margin: 8px 0;
 
   /* typography */
-  color: black;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  text-align: center;
 
   /* visual decorations */
-  cursor: pointer;
-  transition: all 0.2s ease-out;
-
-  &:hover {
-    background-color: ${({ theme }) => theme.secondary};
-
-    a {
-      color: white;
-    }
-  }
+  text-decoration: none;
 `;
 
-export const NavLink = styled.a`
+export const NavItemNumber = styled.p`
+  /* box model */
+  padding-right: 5px;
+  margin: 0;
+
+  /* typography */
+  color: ${({ theme }) => theme.desertSand};
+  font-size: 1.125rem;
+  font-weight: 600;
+
   /* visual decorations */
-  color: ${({ theme }) => theme.secondary};
-  text-decoration: none;
+`;
+
+export const NavItemText = styled.p`
+  /* box model */
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+
+  /* typography */
+  color: ${({ theme }) => theme.floralWhite};
+  font-family: "Staatliches";
+  font-size: 1.25rem;
+  font-weight: 100;
+  line-height: 1;
+
+  /* visual decorations */
+  transition: all 0.3s;
+
+  &:hover {
+    color: ${({ theme }) => theme.desertSand};
+  }
 `;
