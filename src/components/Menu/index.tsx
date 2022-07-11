@@ -1,5 +1,3 @@
-import MediaQuery from "react-responsive";
-
 // import styled components
 import {
   StyledMenu,

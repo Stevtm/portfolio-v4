@@ -31,7 +31,7 @@ const Nav: React.FC = () => {
   return (
     <Header>
       <NavBar>
-        <Logo>
+        <Logo href="/">
           <SLogo></SLogo>
         </Logo>
         <MediaQuery maxWidth={670}>
