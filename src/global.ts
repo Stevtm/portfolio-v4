@@ -6,6 +6,8 @@ export const GlobalStyles = createGlobalStyle`
         /* box model */
         margin: 0; 
         padding: 0;
+
+        /* visual decorations */
     }
 
     *, *::after, *::before {

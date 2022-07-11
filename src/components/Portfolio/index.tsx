@@ -3,28 +3,28 @@ import { portfolioInfo } from "../../utils/portfolio-info";
 
 // import styled components
 import {
-	Anchor,
-	PortfolioHeader,
-	PortfolioSection,
-	ColorBar,
-	HeaderText,
+  Anchor,
+  PortfolioHeader,
+  PortfolioSection,
+  HeaderNumber,
+  HeaderText,
 } from "./styles";
 
 const Portfolio: React.FC = () => {
-	return (
-		<>
-			<Anchor id={"portfolio"}></Anchor>
-			<PortfolioSection>
-				<PortfolioHeader>
-					<ColorBar></ColorBar>
-					<HeaderText>Portfolio</HeaderText>
-				</PortfolioHeader>
-				{portfolioInfo.map((info) => {
-					return <Project info={info} key={info.id}></Project>;
-				})}
-			</PortfolioSection>
-		</>
-	);
+  return (
+    <>
+      <Anchor id={"portfolio"}></Anchor>
+      <PortfolioSection>
+        <PortfolioHeader>
+          <HeaderNumber>02.</HeaderNumber>
+          <HeaderText>My Projects</HeaderText>
+        </PortfolioHeader>
+        {portfolioInfo.map((info) => {
+          return <Project info={info} key={info.id}></Project>;
+        })}
+      </PortfolioSection>
+    </>
+  );
 };
 
 export default Portfolio;
