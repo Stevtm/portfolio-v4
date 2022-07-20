@@ -3,7 +3,7 @@
 This fourth iteration of my personal portfolio showcases some of the web apps I have developed to date, including links to the deployed apps and the relevant GitHub repositories. The portfolio also includes some information about me, my contact information, and
 a link to my résumé.
 
-The live application is deployed here: https://stevtm.github.io/portfolio-v4/
+The live application is deployed here: https://stev.ca
 
 ## Technologies Used
 

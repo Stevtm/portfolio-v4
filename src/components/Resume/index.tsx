@@ -1,4 +1,4 @@
-import ResumePDF from "../../assets/documents/Resume_08Aug2021.pdf";
+import ResumePDF from "../../assets/documents/StevenMaddison_Resume_Jul2022.pdf";
 
 // import styled components
 import {
