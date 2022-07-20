@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/portfolio-v4/static/js/main.6d11dedd.js",
-    "static/media/steven-min.png": "/portfolio-v4/static/media/steven-min.3282c2678cd4c1d26370.png",
-    "static/media/Resume_08Aug2021.pdf": "/portfolio-v4/static/media/Resume_08Aug2021.8553c74f631fddf24ab8.pdf",
-    "static/media/Logo.svg": "/portfolio-v4/static/media/Logo.8527d2fa767ad92a1bf4b68921c5a1a0.svg",
-    "index.html": "/portfolio-v4/index.html",
-    "main.6d11dedd.js.map": "/portfolio-v4/static/js/main.6d11dedd.js.map"
+    "main.js": "/static/js/main.9ab65a83.js",
+    "static/media/steven-min.png": "/static/media/steven-min.3282c2678cd4c1d26370.png",
+    "static/media/StevenMaddison_Resume_Jul2022.pdf": "/static/media/StevenMaddison_Resume_Jul2022.9d36be44307965dd6a9c.pdf",
+    "static/media/Logo.svg": "/static/media/Logo.8527d2fa767ad92a1bf4b68921c5a1a0.svg",
+    "index.html": "/index.html",
+    "main.9ab65a83.js.map": "/static/js/main.9ab65a83.js.map"
   },
   "entrypoints": [
-    "static/js/main.6d11dedd.js"
+    "static/js/main.9ab65a83.js"
   ]
 }
